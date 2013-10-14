@@ -1,4 +1,5 @@
 Feature: qcumber
 
 	Scenario: synchronous
-		When a synchronous precondition occurs
+		Given a synchronous precondition occurs
+		When an asynchronous action occurs
