@@ -1,0 +1,29 @@
+{
+  "name": "qcumber",
+  "version": "0.0.0",
+  "description": "Extend cucumberjs step definitions with implicit promises support (via Q).",
+  "main": "lib/qcumber.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/DavidSouther/qcumber"
+  },
+  "keywords": [
+    "q",
+    "cucumberjs"
+  ],
+  "author": "David Souther",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DavidSouther/qcumber/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cucumber": "~0.2.3"
+  },
+  "dependencies": {
+    "q": "~0.9.7"
+  }
+}
