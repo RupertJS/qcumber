@@ -21,7 +21,9 @@
   },
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-cucumber": "~0.2.3"
+    "grunt-cucumber": "~0.2.3",
+    "grunt-mocha-test": "~0.7.0",
+    "should": "~2.0.1"
   },
   "dependencies": {
     "q": "~0.9.7"
