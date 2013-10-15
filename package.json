@@ -1,6 +1,6 @@
 {
   "name": "qcumber",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Extend cucumberjs step definitions with implicit promises support (via Q).",
   "main": "lib/qcumber.js",
   "scripts": {
@@ -26,6 +26,11 @@
     "should": "~2.0.1"
   },
   "dependencies": {
-    "q": "~0.9.7"
+    "q": "~0.9.7",
+    "coffee-script": "~1.6.3"
+  },
+  "peerDependencies": {
+    "q": "~0.9.7",
+    "coffee-script": "~1.6.3"
   }
 }
