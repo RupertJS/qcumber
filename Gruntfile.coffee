@@ -21,5 +21,9 @@ module.exports = (grunt)->
 
 	grunt.loadNpmTasks npm for npm in grunt.npmTasks
 
-	grunt.registerTask 'test', ['mochaTest', 'cucumberjs']
+	grunt.registerTask 'test', [
+		'mochaTest',
+		'cucumberjs'
+	]
+
 	grunt.registerTask 'default', ['test']

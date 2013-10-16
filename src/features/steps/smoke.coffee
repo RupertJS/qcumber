@@ -14,3 +14,7 @@ module.exports = ->
 		d.reject('Error Condition')
 		d.promise
 		true # Uncomment for a failing test
+
+	require('../../lib/qcumber')(@)
+	@Then /can be re-Qed/, ->
+		true
