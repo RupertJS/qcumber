@@ -1,6 +1,6 @@
 {
   "name": "qcumber",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Extend cucumberjs step definitions with implicit promises support (via Q).",
   "main": "lib/qcumber.js",
   "scripts": {
