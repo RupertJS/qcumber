@@ -26,11 +26,11 @@
     "should": "~2.0.1"
   },
   "dependencies": {
-    "q": "~0.9.7",
-    "coffee-script": "~1.6.3"
+    "q": "~1.0.1",
+    "coffee-script": "~1.7.1"
   },
   "peerDependencies": {
-    "q": "~0.9.7",
-    "coffee-script": "~1.6.3"
+    "q": "~1.0.1",
+    "coffee-script": "~1.7.1"
   }
 }
