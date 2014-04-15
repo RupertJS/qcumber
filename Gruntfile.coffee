@@ -17,6 +17,7 @@ module.exports = (grunt)->
 	grunt.npmTasks = [
 		"grunt-cucumber"
 		"grunt-mocha-test"
+		"grunt-release"
 	]
 
 	grunt.loadNpmTasks npm for npm in grunt.npmTasks
