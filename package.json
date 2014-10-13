@@ -28,10 +28,6 @@
   },
   "dependencies": {
     "q": "~1.0.1",
-    "coffee-script": "~1.7.1"
-  },
-  "peerDependencies": {
-    "q": "~1.0.1",
-    "coffee-script": "~1.7.1"
+    "coffee-script": "^1.8.0"
   }
 }
