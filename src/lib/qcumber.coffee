@@ -7,6 +7,6 @@ module.exports = (steps)->
 		_defineStep.call steps, regex, (args..., done)->
 			Q.when(cb.apply(@, args))
 			.then(->done())
-			.catch(done)
+			.catch((e)->done.fail(e))
 
 	steps.Given = steps.When = steps.Then = steps.defineStep = qStep
