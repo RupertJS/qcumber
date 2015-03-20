@@ -4,7 +4,7 @@
   "description": "Extend cucumberjs step definitions with implicit promises support (via Q).",
   "main": "lib/qcumber.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "./node_modules/.bin/grunt test"
   },
   "repository": {
     "type": "git",
@@ -21,10 +21,11 @@
   },
   "devDependencies": {
     "grunt": "~0.4.1",
+    "grunt-cli": "^0.1.13",
     "grunt-cucumber": "~0.2.3",
     "grunt-mocha-test": "~0.7.0",
-    "should": "~2.0.1",
-    "grunt-release": "~0.7.0"
+    "grunt-release": "~0.7.0",
+    "should": "~2.0.1"
   },
   "dependencies": {
     "q": "~1.0.1",
