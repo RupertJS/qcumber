@@ -11,7 +11,7 @@ module.exports = (grunt)->
 				options:
 					reporter: 'nyan'
 					require: 'coffee-script'
-				src: ['src/test/*.coffee']
+				src: ['src/test/*.coffee', 'src/test/*.js']
 
 
 	grunt.npmTasks = [

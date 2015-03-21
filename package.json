@@ -25,7 +25,8 @@
     "grunt-cucumber": "~0.2.3",
     "grunt-mocha-test": "~0.7.0",
     "grunt-release": "~0.7.0",
-    "should": "~2.0.1"
+    "should": "~2.0.1",
+    "sinon": "^1.14.1"
   },
   "dependencies": {
     "q": "~1.0.1",
